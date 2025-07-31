@@ -15,27 +15,23 @@ SiamFC/
 └── pycache/ # Auto-generated cache files
  ```
 markdown
-Copy
-Edit
 
-## 🧪 Features
 
-- ⚙️ SiamFC implemented using PyTorch
-- 🧠 Performs depthwise cross-correlation between template and search image
-- 📉 Evaluation through IoU plots and response map visualization
-- 📹 Tracking results saved as `.mp4` output videos
+## Features
 
-## 📂 Dataset Used
+- SiamFC implemented using PyTorch
+- Performs depthwise cross-correlation between template and search image
+- Evaluation through IoU plots and response map visualization
+- Tracking results saved as `.mp4` output videos
+
+## Dataset Used
 
 - **OTB100** benchmark
 - Sequence: `Basketball`
 
 
-markdown
-Copy
-Edit
 
-## ▶️ How to Run
+## How to Run
 
 1. Open the notebook:
  ```bash
