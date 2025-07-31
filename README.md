@@ -40,19 +40,19 @@ Make sure siamfc_weights.pth and the video/data files are present
 
 Run all cells to:
  ```
-Load video (input1.mp4)
+Initialize model （CELL3)
 
-Initialize model
+Load video (CELL 8)
 
 Predict and draw bounding boxes
 
 Visualize response maps
 
-Export video (output1.mp4)
+Export video
  ```
  Evaluations: 
 
 
 - Response heatmap showing matching region
 - Bounding box overlays per frame
-- IoU trend over frames (if applicable)
+- IoU trend over frames
