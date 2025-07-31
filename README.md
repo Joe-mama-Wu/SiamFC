@@ -11,10 +11,9 @@ SiamFC/
 ├── input1.mp4 # Sample input video
 ├── output1.mp4 # Tracking result video (full sequence)
 ├── output.mp4 # Tracking result video (subset or preview)
-├── data/ # Dataset directory (e.g. OTB100/Basketball)
-└── pycache/ # Auto-generated cache files
+├── data/ # Dataset director OTB100 Dataset need to be manually download through (https://opendatalab.com/OpenDataLab/OTB100)
  ```
-markdown
+
 
 
 ## Features
