@@ -26,7 +26,7 @@ SiamFC/
 ## Dataset Used
 
 - **OTB100** benchmark
-- Sequence: `Basketball`
+- Evaluation Set: `Basketball`
 
 
 
@@ -35,10 +35,11 @@ SiamFC/
 1. Open the notebook:
  ```bash
  jupyter notebook siamfc_train.ipynb
+  ```
 Make sure siamfc_weights.pth and the video/data files are present
 
 Run all cells to:
-
+ ```
 Load video (input1.mp4)
 
 Initialize model
@@ -48,10 +49,10 @@ Predict and draw bounding boxes
 Visualize response maps
 
 Export video (output1.mp4)
+ ```
+ Evaluations: 
 
-📊 Output Visuals
-🔵 Response heatmap showing matching region
 
-🟢 Bounding box overlays per frame
-
-🟣 IoU trend over frames (if applicable)
+- Response heatmap showing matching region
+- Bounding box overlays per frame
+- IoU trend over frames (if applicable)
