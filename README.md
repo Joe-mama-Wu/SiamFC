@@ -6,12 +6,12 @@ This folder contains the implementation and training/inference pipeline of the *
 
 SiamFC/
  ```bash
-├── siamfc_train.ipynb # Jupyter Notebook for training and inference <br>
-├── siamfc_weights.pth # Saved PyTorch model weights <br>
-├── input1.mp4 # Sample input video <br>
-├── output1.mp4 # Tracking result video (full sequence) <br>
-├── output.mp4 # Tracking result video (subset or preview) <br>
-├── data/ # Dataset directory (e.g. OTB100/Basketball) <br>
+├── siamfc_train.ipynb # Jupyter Notebook for training and inference
+├── siamfc_weights.pth # Saved PyTorch model weights
+├── input1.mp4 # Sample input video
+├── output1.mp4 # Tracking result video (full sequence)
+├── output.mp4 # Tracking result video (subset or preview)
+├── data/ # Dataset directory (e.g. OTB100/Basketball)
 └── pycache/ # Auto-generated cache files
  ```
 markdown
